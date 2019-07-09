@@ -1,4 +1,5 @@
 function printReceipt(productIdArray) {
+
     if (!(productIdArray instanceof Array) || productIdArray.length == 0) {
         return "ERROR Invalid codes"
     }
